@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { JSX } from "react";
+import profilePicture from "@/assets/profile-transparent.webp";
 
 const About = ({
   aboutRef,
@@ -78,7 +79,7 @@ const About = ({
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, type: "spring" }}
-        src="/profile-transparent.png"
+        src={profilePicture.src}
         alt="Avatar"
         className={`rounded-full w-64 h-64 object-cover border-4 ${
           darkMode ? "border-white" : "border-black"
