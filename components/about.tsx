@@ -54,7 +54,7 @@ const About = ({
           variants={listVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="space-y-4 text-lg leading-relaxed list-none"
         >
           {[
