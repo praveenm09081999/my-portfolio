@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { JSX, useEffect } from "react";
 import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
 import { TypeAnimation } from "react-type-animation";

@@ -1,4 +1,4 @@
-import { useState,useRef } from 'react';
+import { useState,useRef, JSX } from 'react';
 import About from '@/components/about';
 import Projects from '@/components/projects';
 import Contacts from '@/components/contacts';
@@ -6,7 +6,7 @@ import Hero from '@/components/hero';
 
 export default function Home(): JSX.Element {
   const [darkMode, setDarkMode] = useState<boolean>(false);
-  const aboutRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null!);
 
   return (
     <div className={darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}>

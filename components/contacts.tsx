@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 const Contacts = (): JSX.Element => {
   return (
     <section className="px-8 py-20">

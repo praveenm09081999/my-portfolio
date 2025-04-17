@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { JSX } from "react";
 
 const About = ({
   aboutRef,

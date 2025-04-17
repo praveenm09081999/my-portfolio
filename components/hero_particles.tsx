@@ -1,7 +1,7 @@
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { type Container, type ISourceOptions } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
-import { useEffect, useMemo, useState } from "react";
+import { JSX, useEffect, useMemo, useState } from "react";
 
 const HeroParticles = ({ darkMode }: { darkMode: boolean }): JSX.Element => {
   const [init, setInit] = useState(false);
